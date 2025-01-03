@@ -49,6 +49,7 @@ int main() {
 
     std::cout << "최종 크기: " << vec.size() << std::endl;
     std::cout << "최대 용량: " << vec.capacity() << std::endl;
+    vec.sortData();
     vec.print();
     return 0;
 }
